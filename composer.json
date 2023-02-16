@@ -7,13 +7,18 @@
         "psr-4": {
             "Alura\\BuscadorCursosAlura\\": "src/"
         },
-        "files": ["./functions.php"]
+        "files": [
+            "./functions.php"
+        ]
     },
     "authors": [
         {
             "name": "Téo Victor",
             "email": "teo.victorc@gmail.com"
         }
+    ],
+    "bin": [
+        "buscar-cursos.php"
     ],
     "require": {
         "guzzlehttp/guzzle": "^7.5",
